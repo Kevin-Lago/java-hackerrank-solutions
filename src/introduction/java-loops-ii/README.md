@@ -1,3 +1,5 @@
+# Java Loops I
+
 We use the integers _a, b,_ and _n_ to create the following series:
 
 __(_a_ + 2<sup>0</sup> * _b_),(_a_ + 2<sup>0</sup> * _b_ + 2<sup>1</sup> * _b_), ... ,(_a_ + 2<sup>0</sup> * _b_ + 2<sup>1</sup> * _b_ + ... + 2<sup>_n_-1</sup> * _b_)__
