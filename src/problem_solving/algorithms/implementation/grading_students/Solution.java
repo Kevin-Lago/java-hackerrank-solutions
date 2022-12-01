@@ -1,5 +1,11 @@
 package problem_solving.algorithms.implementation.grading_students;
 
+import java.io.*;
+import java.util.List;
+import java.util.stream.IntStream;
+
+import static java.util.stream.Collectors.toList;
+
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
