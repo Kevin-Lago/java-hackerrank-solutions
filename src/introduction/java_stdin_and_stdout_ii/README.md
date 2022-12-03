@@ -2,7 +2,7 @@
 
 In this challenge, you must read an integer, a double, and a String from stdin, then print the values according to the instructions in the Output Format section below. To make the problem a little easier, a portion of the code is provided for you in the editor.
 
-__Note:__ We recommend completing "Java Stdin and Stdout I" before attempting this challenge.
+__Note:__ We recommend completing [Java Stdin and Stdout I](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem?isFullScreen=true) before attempting this challenge.
 
 __Input Format__
 
@@ -26,7 +26,7 @@ There are three lines of output:
 
 To make the problem easier, a portion of the code is already provided in the editor.
 
-__Note:__ If you use the nextLine() method immediately following the nextInt() method, recall that nextInt() reads integer tokens; because of this, the last newline character for that line of integer input is still queued in the input buffer and the next nextLine() will be reading the remainder of the interger line (which is empty).
+__Note:__ If you use the [nextLine()](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html#nextLine--) method immediately following the [nextInt()](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html#nextInt--) method, recall that nextInt() reads integer tokens; because of this, the last newline character for that line of integer input is still queued in the input buffer and the next nextLine() will be reading the remainder of the interger line (which is empty).
 
 __Sample Input__
 
