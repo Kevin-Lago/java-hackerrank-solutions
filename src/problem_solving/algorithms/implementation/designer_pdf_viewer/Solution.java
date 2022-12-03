@@ -16,10 +16,10 @@ public class Solution {
                 .collect(toList());
 
         String word = bufferedReader.readLine();
-
-        int result = Result.designerPdfViewer(h, word);
-
-        bufferedWriter.write(String.valueOf(result));
+//
+//        int result = Result.designerPdfViewer(h, word);
+//
+//        bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
 
         bufferedReader.close();

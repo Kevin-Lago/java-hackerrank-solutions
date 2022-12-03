@@ -23,27 +23,27 @@ public class Solution {
 
         int m = Integer.parseInt(firstMultipleInput[1]);
 
-        List<List<Integer>> queries = new ArrayList<>();
-
-        IntStream.range(0, m).forEach(i -> {
-            try {
-                queries.add(
-                        Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                                .map(Integer::parseInt)
-                                .collect(toList())
-                );
-            } catch (IOException ex) {
-                throw new RuntimeException(ex);
-            }
-        });
-
-        long result = Result.arrayManipulation(n, queries);
-
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
-
-        bufferedReader.close();
-        bufferedWriter.close();
+//        List<List<Integer>> queries = new ArrayList<>();
+//
+//        IntStream.range(0, m).forEach(i -> {
+//            try {
+//                queries.add(
+//                        Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+//                                .map(Integer::parseInt)
+//                                .collect(toList())
+//                );
+//            } catch (IOException ex) {
+//                throw new RuntimeException(ex);
+//            }
+//        });
+//
+//        long result = Result.arrayManipulation(n, queries);
+//
+//        bufferedWriter.write(String.valueOf(result));
+//        bufferedWriter.newLine();
+//
+//        bufferedReader.close();
+//        bufferedWriter.close();
     }
 
     private static class List<T> {

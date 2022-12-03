@@ -18,9 +18,9 @@ public class Solution {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        long result = Result.marcsCakewalk(calorie);
+//        long result = Result.marcsCakewalk(calorie);
 
-        bufferedWriter.write(String.valueOf(result));
+//        bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
 
         bufferedReader.close();

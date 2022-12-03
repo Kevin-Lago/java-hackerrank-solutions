@@ -21,9 +21,9 @@ public class Solution {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        int result = Result.divisibleSumPairs(n, k, ar);
-
-        bufferedWriter.write(String.valueOf(result));
+//        int result = Result.divisibleSumPairs(n, k, ar);
+//
+//        bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
 
         bufferedReader.close();
