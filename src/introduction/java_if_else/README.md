@@ -2,7 +2,8 @@
 
 In this challenge, we test your knowledge of using if-else conditional statements to automate decision-making processes. An if-else statement has the following logical flow:
 
-![If Else Diagram](./HackerrankJavaIfElseDiagram.png#ffffff)
+![If Else Diagram](./HackerrankJavaIfElseDiagramDM.png#gh-dark-mode-only)
+![If Else Diagram](./HackerrankJavaIfElseDiagramLM.png#gh-light-mode-only)
 
 __Task__
 
