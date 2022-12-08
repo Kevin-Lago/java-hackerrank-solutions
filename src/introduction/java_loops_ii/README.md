@@ -1,7 +1,7 @@
 | <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_loops_i)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_datatypes)</img> |
 |:---|:---:|---:|
 
-# Java Loops I
+# Java Loops II
 
 We use the integers _a, b,_ and _n_ to create the following series:
 
