@@ -1,4 +1,4 @@
-package big_number.java_primality_test;
+package bignumber.java_primality_test;
 
 import java.io.BufferedReader;
 import java.io.IOException;
