@@ -1,4 +1,4 @@
-| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/)</img> |
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/exception_handling/java_exception_handling_try_catch)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/advanced/java_varargs_simple_addition)</img> |
 |:---|:---:|---:|
 
 # Java Exception Handling
@@ -56,6 +56,20 @@ __Explanation 0__
 <details><summary>Solution</summary>
     
 ```java
+class MyCalculator {
 
+    public long power(int a, int b) throws Exception {
+        if (a < 0 || b < 0) {
+            throw new Exception("n or p should not be negative.");
+        }
+
+        if (a == 0 && b == 0) {
+            throw new Exception("n and p should not be zero.");
+        }
+
+        return (long) Math.pow(a, b);
+    }
+
+}
 ```
 </details>

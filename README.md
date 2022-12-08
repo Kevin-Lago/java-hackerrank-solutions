@@ -60,7 +60,7 @@
 
 <details><summary><h3>Object Oriented Programming</h3></summary>
     
-- [x] [Java Inheritance I](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_inheritance_i)
+- [ ] [Java Inheritance I](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_inheritance_i)
 - [ ] [Java Inheritance II](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_inheritance_ii)
 - [ ] [Java Abstract Class](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_abstract_class)
 - [ ] [Java Interface](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_interface)
