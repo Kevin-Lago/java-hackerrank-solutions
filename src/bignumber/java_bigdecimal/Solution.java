@@ -1,4 +1,4 @@
-package bignumber.java_big_decimal;
+package bignumber.java_bigdecimal;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

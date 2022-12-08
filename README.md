@@ -34,9 +34,9 @@
 
 <details><summary><h3>BigNumber</h3></summary>
 
-- [x] [Java Primality Test](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/big_numbers/java_primality_test)
-- [x] [Java BigDecimal](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/big_numbers/java_big_decimal)
-- [x] [Java BigInteger](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/big_number/big_integer)
+- [x] [Java Primality Test](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_primality_test)
+- [x] [Java BigDecimal](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_bigdecimal)
+- [x] [Java BigInteger](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_biginteger)
 </details>
 
 <details><summary><h3>Data Structures</h3></summary>
