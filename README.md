@@ -60,14 +60,14 @@
 
 <details><summary><h3>Object Oriented Programming</h3></summary>
     
-- [ ] [Java Inheritance I](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_inheritance_i)
-- [ ] [Java Inheritance II](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_inheritance_ii)
-- [ ] [Java Abstract Class](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_abstract_class)
-- [ ] [Java Interface](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_interface)
-- [ ] [Java Method Overriding](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_method_overriding)
-- [ ] [Java Method Overriding 2 (Super keyword)](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_method_overriding_2_super_keyword)
-- [ ] [Java Instanceof keyword](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_instanceof_keyword)
-- [ ] [Java Iterator](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_iterator)
+- [x] [Java Inheritance I](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_inheritance_i)
+- [x] [Java Inheritance II](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_inheritance_ii)
+- [x] [Java Abstract Class](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_abstract_class)
+- [x] [Java Interface](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_interface)
+- [x] [Java Method Overriding](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_method_overriding)
+- [x] [Java Method Overriding 2 (Super keyword)](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_method_overriding_2_super_keyword)
+- [x] [Java Instanceof keyword](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_instanceof_keyword)
+- [x] [Java Iterator](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/object_oriented_programming/java_iterator)
 </details>
 
 <details><summary><h3>Exception Handling</h3></summary>

@@ -10,8 +10,9 @@ public class Main{
         Iterator it=mylist.iterator();
         while(it.hasNext()){
             Object element = it.next();
-            if(element == "###") {
-                System.out.println();
+            if (element instanceof Integer) {
+                it.remove();
+                continue;
             }
 
             break;
@@ -40,4 +41,5 @@ public class Main{
             System.out.println((String)element);
         }
     }
+
 }
