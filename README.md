@@ -72,8 +72,8 @@
 
 <details><summary><h3>Exception Handling</h3></summary>
     
-- [ ] [Java Exception Handling (Try-catch)](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/exception_handling/java_exception_handling_try_catch)
-- [ ] [Java Exception Handling](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/exception_handling/java_exception_handling)
+- [x] [Java Exception Handling (Try-catch)](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/exception_handling/java_exception_handling_try_catch)
+- [x] [Java Exception Handling](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/exception_handling/java_exception_handling)
 </details>
 
 <details><summary><h3>Advanced</h3></summary>
