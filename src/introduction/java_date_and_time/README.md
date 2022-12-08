@@ -1,4 +1,4 @@
-| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_int_to_string)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_currency_formatter)</img> |
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_int_to_string)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_currency_formatter)</img> |
 |:---|:---:|---:|
 
 # Java Date and Time
