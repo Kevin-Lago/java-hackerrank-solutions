@@ -23,7 +23,7 @@
 - [x] [Java Substring](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_substring)
 - [x] [Java Substring Comparisons](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_substring_comparisons)
 - [x] [Java String Reverse](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_string_reverse)
-- [x] [Java Anagrams](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java-anagrams)
+- [x] [Java Anagrams](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_anagrams)
 - [x] [Java String Tokens](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_string_tokens)
 - [x] [Pattern Syntax checker](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/pattern_syntax_checker)
 - [x] [Java Regex](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_regex)
@@ -34,8 +34,8 @@
 
 <details><summary><h3>BigNumber</h3></summary>
 
-- [x] [Java Primality Test](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_primality_test)
 - [x] [Java BigDecimal](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_bigdecimal)
+- [x] [Java Primality Test](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_primality_test)
 - [x] [Java BigInteger](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_biginteger)
 </details>
 
