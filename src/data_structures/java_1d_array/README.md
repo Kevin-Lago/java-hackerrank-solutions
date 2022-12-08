@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/)</img> |
+|:---|:---:|---:|
+
 # Java 1D Array
 
 An array is a simple data structure used to store a collection of data in a contiguous block of memory. Each element in the collection is accessed using an index, and the elements are easy to find because they're stored squentially in memory.
@@ -75,21 +78,30 @@ __Explanation__
 
 When we save each integer to its corresponding index in ___a___, we get ___a_ = [10,20,30,40,50]__. The locked code prints each array element on a new line from left to right.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
-public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
-    int n = scan.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) {
-        a[i] = scan.nextInt();
-    }
-    scan.close();
+import java.util.Scanner;
 
-    // Prints each sequential element in array a
-    for (int i = 0; i < a.length; i++) {
-        System.out.println(a[i]);
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = scan.nextInt();
+        }
+        scan.close();
+
+        // Prints each sequential element in array a
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
     }
+
 }
 ```
+</details>

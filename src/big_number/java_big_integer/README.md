@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_bigdecimal)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/data_structures/java_1d_array)</img> |
+|:---|:---:|---:|
+
 # Java Big Integer
 
 In this problem, you have to add and multiply huge numbers! These numbers are so big that you can't contain them in any primitive data types.
@@ -36,8 +39,11 @@ __1234 + 20 = 1254__
 
 __1234 * 20 = 24680__
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 
 ```
+</details>

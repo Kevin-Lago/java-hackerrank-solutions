@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_primality_test)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_biginteger)</img> |
+|:---|:---:|---:|
+
 # Java Big Decimal
 
 Java's BigDecimal class can handle arbitrart-precision signed decimal numbers. Let's test your knowledge of them!
@@ -51,8 +54,11 @@ __Sample Output__
 -100
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 
 ```
+</details>

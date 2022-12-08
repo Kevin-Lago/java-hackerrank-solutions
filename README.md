@@ -34,14 +34,14 @@
 
 <details><summary><h3>BigNumber</h3></summary>
 
-- [ ] [Java Primality Test](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/big_numbers/java_primality_test)
+- [x] [Java Primality Test](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/big_numbers/java_primality_test)
 - [ ] [Java BigDecimal](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/big_numbers/java_big_decimal)
 - [ ] [Java BigInteger](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/big_number/big_integer)
 </details>
 
 <details><summary><h3>Data Structures</h3></summary>
     
-- [ ] [Java 1D Array](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/data_structures/java_1d_array)
+- [x] [Java 1D Array](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/data_structures/java_1d_array)
 - [ ] [Java 2D Array](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/data_structures/java_2d_array)
 - [ ] [Java Subarray](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/data_structures/java_subarray)
 - [ ] [Java Arraylist](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/data_structures/java_arraylist)
