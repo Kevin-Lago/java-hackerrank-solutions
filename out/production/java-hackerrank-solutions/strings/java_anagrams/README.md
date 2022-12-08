@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_string_reverse)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_string_tokens)</img> |
+|:---|:---:|---:|
+
 # Java Anagrams
 
 Two strings, ___a___ and ___b___, are called anagrams if they contain all the same characters is the same frequencies. For this challenge, the test is not case-sensitive. For example, the anagrams of ```CAT``` are ```CAT```, ```ACT```, ```tac```, ```TCA```, ```aTC```, and ```CtA```.
@@ -104,8 +107,10 @@ __Explanation 2__
 
 The two strings contain all the same letters in the same frequencies, so we print "Anagrams".
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static boolean isAnagram(String a, String b) {
     for (int i = 0; i < a.length(); i++) {
@@ -127,3 +132,4 @@ public static boolean isAnagram(String a, String b) {
     return false;
 }
 ```
+</details>

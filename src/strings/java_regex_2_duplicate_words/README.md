@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_regex)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/tag_content_extractor)</img> |
+|:---|:---:|---:|
+
 # Java Regex 2 - Duplicate Words
 
 In this challenge, we use regular expressions (RegEx) to remove instances of words that are repeated more than once, but retain the first occurrence of any case-insensitive repeated word. For example, the words ```love``` and ```to``` are repeated in the sentence ```I love Love to To t0 code```. Can you complete the code in the editor so it will turn ```I love Love to To t0 code``` into ```I love to code```?
@@ -63,8 +66,10 @@ __Explanation__
 
 5. We remove the second occurence of ```ab``` from ```Hello hello Ab aB``` to get ```Hello Ab```. It's important to note that our matching is case-insensitive, and we specifically retained the first occurrence of the matched word in our final string.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     String regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
@@ -90,3 +95,4 @@ public static void main(String[] args) {
     in.close();
 }
 ```
+</details>

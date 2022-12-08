@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_currency_formatter)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_substring)</img> |
+|:---|:---:|---:|
+
 # Java Strings Introduction
 
 > "A string is traditionally a sequence of characters, either as a literal constant or as some kind of variable." — [Wikipedia: String (computer science)](https://en.wikipedia.org/wiki/String_%28computer_science%29)
@@ -57,8 +60,10 @@ When sorted alphabetically/lexicographically, "hello" precedes "java"; therefore
 
 When you capitalize the first letter of both ___a___ and ___b___ and then print them separated by a space, you get "Hello Java".
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -70,4 +75,4 @@ public static void main(String[] args) {
     System.out.println(a.substring(0, 1).toUpperCase() + a.substring(1) + " " + b.substring(0, 1).toUpperCase() + b.substring(1));
 }
 ```
-
+</details>

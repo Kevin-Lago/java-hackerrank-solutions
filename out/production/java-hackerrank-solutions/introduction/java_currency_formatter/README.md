@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_date_and_time)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_strings_introduction)</img> |
+|:---|:---:|---:|
+
 # Java Currency Formatter
 
 Given a [double-precision](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) number, _payment_, denoting an amount of money, use the [NumberFormat](https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html) class' [getCurrencyInstance](https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html#getCurrencyInstance-java.util.Locale-) method to conver _payment_ into the US, Indian, Chinese, and French currency formats. Then print the formatted values as follows:
@@ -50,8 +53,10 @@ __Explanation__
 
 Each line contains the value _payment_ formatted according to the four countries' respective currencies. 
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -85,3 +90,4 @@ public class Solution {
 
 }
 ```
+</details>

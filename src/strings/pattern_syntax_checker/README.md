@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_string_tokens)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_regex)</img> |
+|:---|:---:|---:|
+
 # Pattern Syntax Checker
 
 Using ___regex___, we can easily match or search for patterns in text. Before searching for a pattern, we have to specify one using some well-defined syntax.
@@ -31,8 +34,10 @@ Invalid
 Invalid
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -51,3 +56,4 @@ public static void main(String[] args) {
     }
 }
 ```
+</details>

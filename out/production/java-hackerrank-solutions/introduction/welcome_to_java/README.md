@@ -1,3 +1,6 @@
+| <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_stdin_and_stdout_i)</img> |
+|:---:|---:|
+
 # Welcome to Java!
 
 Welcome to the world of java! In this challenge, we practice printing to stdout.
@@ -28,8 +31,10 @@ Hello, World.
 Hello, Java.
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public class Solution {
     
@@ -40,3 +45,4 @@ public class Solution {
     
 }
 ```
+</details>

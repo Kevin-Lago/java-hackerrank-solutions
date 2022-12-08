@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_end_of_file)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_int_to_string)</img> |
+|:---|:---:|---:|
+
 # Java Static Initializer Block
 
 Static initialization blocks are executed when the class is loaded, and you can initialize static variables in those blocks.
@@ -50,8 +53,10 @@ __Sample Output 1__
 java.lang.Exception: Breadth and height must be positive
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -65,3 +70,4 @@ public static void main(String[] args) {
     }
 }
 ```
+</details>

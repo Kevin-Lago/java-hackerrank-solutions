@@ -1,3 +1,8 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_strings_introduction)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_substring_comparisons)</img> |
+|:---|:---:|---:|
+
+# Java Substring
+
 Given a string, ___s___ and two indicies, ___start___ and ___end___, print a [substring](https://en.wikipedia.org/wiki/Substring) consisting of all characters in the inclusive range from ___start__ to ___end_ - 1__. You'll find the String class' [substring method](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-int-) helpful in completing this challenge.
 
 __Input Format__
@@ -37,9 +42,10 @@ In the diagram below, the substring is highlighted green:
 
 ![Hackerrank Substring Diagram](HackerrankSubstringDiagram.png)
 
+---
 
-__Solution__
-
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -50,3 +56,4 @@ public static void main(String[] args) {
     System.out.println(s.substring(start, end));
 }
 ```
+</details>

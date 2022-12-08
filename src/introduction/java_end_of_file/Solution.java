@@ -8,7 +8,7 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         int line = 0;
 
-        while(scanner.hasNext()) {
+        while (scanner.hasNext()) {
             line++;
             System.out.println(line + " " + scanner.nextLine());
         }

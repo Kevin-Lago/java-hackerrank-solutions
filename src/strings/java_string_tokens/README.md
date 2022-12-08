@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_anagrams)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/pattern_syntax_checker)</img> |
+|:---|:---:|---:|
+
 # Java String Tokens
 
 Given a string, ___s___, matching the regular expression ```[A-Za-z !,?._'@]+```, split the string into tokens. We define a token to be one or more consecutive English alphabetic letters. Then, print the number of tokens, followed by each token on a new line.
@@ -44,8 +47,10 @@ __Explanation__
 
 We consider a token to be a contiguous segment of alphabetic characters. There are a total of __10__ such tokens in string ___s___, and each token is printed in the same order in which it appears in string ___s___.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -66,3 +71,4 @@ public static void main(String[] args) {
     }
 }
 ```
+</details>

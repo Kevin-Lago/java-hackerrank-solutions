@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_output_formatting)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_loops_i)</img> |
+|:---|:---:|---:|
+
 # Java Loops I
 
 __Objective__
@@ -41,8 +44,10 @@ __Sample Output__
 2 x 10 = 20
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -54,3 +59,4 @@ public static void main(String[] args) throws IOException {
     }
 }
 ```
+</details>

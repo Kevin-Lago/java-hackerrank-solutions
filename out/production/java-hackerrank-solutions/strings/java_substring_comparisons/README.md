@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_substring)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_string_reverse)</img> |
+|:---|:---:|---:|
+
 # Java Substring Comparisons
 
 We define the following terms:
@@ -62,8 +65,10 @@ We then return the first (lexicographically smallest) substring and the last (le
 
 The stub code in the editor then prints ```ava``` as our fist line of output and ```wel``` as our second line of output.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static String getSmallestAndLargest(String s, int k) {
     String[] subStrings = new String[s.length() - k + 1];
@@ -85,3 +90,4 @@ public static String getSmallestAndLargest(String s, int k) {
     return subStrings[0] + "\n" + subStrings[subStrings.length - 1];
 }
 ```
+</details>

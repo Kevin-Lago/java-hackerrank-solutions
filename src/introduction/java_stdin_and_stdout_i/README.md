@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/welcome_to_java)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_if_else)</img> |
+|:---|:---:|---:|
+
 # Java Srdin and Stidout I
 
 Most HackerRank challenges require you to read input from [stdin](https://en.wikipedia.org/wiki/Standard_streams#Standard_input_.28stdin.29) (standard input) and write output to [stdout](https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29) (Standard Output).
@@ -55,8 +58,10 @@ __Sample Output__
 125
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -69,3 +74,4 @@ public static void main(String[] args) {
     System.out.println(c);
 }
 ```
+</details>

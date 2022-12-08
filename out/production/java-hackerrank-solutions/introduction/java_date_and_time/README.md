@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_int_to_string)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_currency_formatter)</img> |
+|:---|:---:|---:|
+
 # Java Date and Time
 
 The [Calendar Class](https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html) is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields such as YEAR, MONTH, DAT_OF_MONTH, HOUR, and so on, and for manipulating the calendar fields, such as getting the date of the next week.
@@ -58,8 +61,11 @@ __Explanation__
 
 The day on August __5<sup>th</sup> 2015__ was a ```WEDNESDAY```
 
-__Solution__
+---
+
+<details><summary>Solution</summary>
+    
+```java
 
 ```
-
-```
+</details>

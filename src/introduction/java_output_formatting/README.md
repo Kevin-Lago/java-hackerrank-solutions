@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_stdin_and_stdout_ii)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_loops_i)</img> |
+|:---|:---:|---:|
+
 # Java Output Formatting
 
 Java's System.out.printf function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using printf.
@@ -40,8 +43,10 @@ __Explanation__
 
 Each String is left-justified with trailing whitespace through the first __15__ characters. The leading digit of the integer is the __16__<sup>th</sup> character, and each integer that was less than __3__ digits now has leading zeroes.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 import java.util.Scanner;
 
@@ -61,3 +66,4 @@ public class Solution {
 
 }
 ```
+</details>

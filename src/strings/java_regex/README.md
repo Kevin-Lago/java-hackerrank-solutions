@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/pattern_syntax_checker)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_regex_2_duplicate_words)</img> |
+|:---|:---:|---:|
+
 # Java Regex
 
 Write a class called strings.java_regex.MyRegex which will contain a string pattern. You need to write a regular expression and assign it to the pattern such that it can be used to validate an IP address. Use the following definition of an IP address:
@@ -50,8 +53,10 @@ false
 false
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 final class MyRegex {
 
@@ -59,3 +64,4 @@ final class MyRegex {
 
 }
 ```
+</details>

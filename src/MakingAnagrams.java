@@ -1,8 +1,6 @@
-package strings.making_anagrams;
-
 import java.util.Arrays;
 
-public class Result {
+public class MakingAnagrams {
 
     public static void main(String[] args) {
 

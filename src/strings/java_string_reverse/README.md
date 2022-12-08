@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_substring_comparisons)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_anagrams)</img> |
+|:---|:---:|---:|
+
 # Java String Reverse
 
 A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.
@@ -16,8 +19,10 @@ __Sample Output__
 Yes
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -33,3 +38,4 @@ public static void main(String[] args) {
     System.out.println("Yes");
 }
 ```
+</details>

@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_stdin_and_stdout_i)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_stdin_and_stdout_ii)</img> |
+|:---|:---:|---:|
+
 # Java If-Else
 
 In this challenge, we test your knowledge of using if-else conditional statements to automate decision-making processes. An if-else statement has the following logical flow:
@@ -65,8 +68,11 @@ Sample Case 1: ___n_ = 24__
 
 ___n_ > 20__ and ___n___ is even, so it isn't weird. Thus, we print ```Not Weird```.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 
 ```
+</details>

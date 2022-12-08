@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_loops_i)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_datatypes)</img> |
+|:---|:---:|---:|
+
 # Java Loops I
 
 We use the integers _a, b,_ and _n_ to create the following series:
@@ -69,8 +72,26 @@ We have two queries:
     
     We then print each element of our series as a single line of space-separated values.
     
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
+import java.util.Scanner;
 
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+        }
+        in.close();
+    }
+
+}
 ```
+</details>

@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Questions](https://github.com/Kevin-Lago/java-hackerrank-solutions/introduction/java_static_initializer_block)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_date_and_time)</img> |
+|:---|:---:|---:|
+
 # Java Int to String
 
 You are given an integer ___n___, you have to convert it into a string.
@@ -18,8 +21,10 @@ __Sample Output 0__
 Good job
 ```
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
@@ -35,3 +40,4 @@ public static void main(String[] args) {
     }
 }
 ```
+</details>
