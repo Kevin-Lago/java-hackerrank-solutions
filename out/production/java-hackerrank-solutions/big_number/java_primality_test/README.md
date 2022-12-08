@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/tag_content_extractor)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/bignumber/java_bigdecimal)</img> |
+|:---|:---:|---:|
+
 # Java Primality Test
 
 A prime number is a natural number greater than __1__ whose only positive divisors are __1__ and itself. For example, the first six prime numbers are __2, 3, 5, 7, 11,__ and __13__.
@@ -32,8 +35,10 @@ __Explanation__
 
 The only positive divisory of 13 are 1 and 13, so we print ```prime```.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 public static void main(String[] args) throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -50,3 +55,4 @@ public static void main(String[] args) throws IOException {
     }
 }
 ```
+</details>

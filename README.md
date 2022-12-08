@@ -8,12 +8,12 @@
 - [x] [Java Stdin and Stdout II](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_stdin_and_stdout_ii)
 - [x] [Java Output Formatting](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_output_formatting)
 - [x] [Java Loops I](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_loops_i)
-- [ ] [Java Loops II](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_loops_ii)
+- [x] [Java Loops II](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_loops_ii)
 - [x] [Java Datatypes](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_datatypes)
 - [x] [Java End-Of-File](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_end_of_file)
 - [x] [Java Static Initializer Block](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_static_initializer_block)
 - [x] [Java Int to String](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_int_to_string)
-- [ ] [Java Date and Time](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_date_and_time)
+- [x] [Java Date and Time](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_date_and_time)
 - [x] [Java Currency Formatter](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/introduction/java_currency_formatter)
 </details>
 
@@ -28,7 +28,7 @@
 - [x] [Pattern Syntax checker](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/pattern_syntax_checker)
 - [x] [Java Regex](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_regex)
 - [x] [Java Regex 2 - Duplicate Words](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/java_regex_2_duplicate_words)
-- [ ] [Valid Username Regular Expression](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/valid_username_regular_expression)
+- [x] [Valid Username Regular Expression](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/valid_username_regular_expression)
 - [ ] [Tag Content Extractor](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/strings/tag_content_extractor)
 </details>
 

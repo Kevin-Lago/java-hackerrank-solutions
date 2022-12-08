@@ -1,3 +1,6 @@
+| <img width=1000>[Previous Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/)</img> | <img width=1000>[Home](https://github.com/Kevin-Lago/java-hackerrank-solutions)</img> | <img width=1000>[Next Question](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/)</img> |
+|:---|:---:|---:|
+
 # Java 1D array part 2
 
 Let's play a game on an array! You're standing at index __0__ of an ___n___-element array named ___game___. From some index ___i___ (where __0 <= _i_ <= _n___), you can perform one of the following moves:
@@ -85,8 +88,11 @@ We perform the following ___q_ = 4__ queries:
 
 4. For ___game_ = [0,1,0]__ and ___leap_ = 1__, there is no way for us to get past the one at index __1__. Because we cannot win, we return false.
 
-__Solution__
+---
 
+<details><summary>Solution</summary>
+    
 ```java
 
 ```
+</details>

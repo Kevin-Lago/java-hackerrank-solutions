@@ -73,6 +73,10 @@ Refer diagram in the challege statement
 <details><summary>Solution</summary>
     
 ```java
+public class UsernameValidator {
 
+    public static final String regularExpression = "^[a-zA-Z]{1}(\\w{7,29})";
+
+}
 ```
 </details>
