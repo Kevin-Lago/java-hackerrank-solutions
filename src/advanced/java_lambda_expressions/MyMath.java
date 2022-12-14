@@ -9,5 +9,5 @@ class MyMath {
         return num % 2 == 0;
     }
 
-    
+
 }
