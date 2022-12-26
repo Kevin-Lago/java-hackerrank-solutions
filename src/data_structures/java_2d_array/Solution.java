@@ -1,17 +1,11 @@
 package data_structures.java_2d_array;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
+import java.io.*;
+import java.util.*;
+import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
 public class Solution {
-
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -29,7 +23,23 @@ public class Solution {
             }
         });
 
+        int largestSum = Integer.MIN_VALUE;
+
+        for (int c = 0; c <= 3; c++) {
+            for (int r = 0; r <= 3; r++) {
+                int sum = 0;
+
+                sum += arr.get(r).get(c) + arr.get(r).get(c + 1) + arr.get(r).get(c + 2);
+                sum += arr.get(r + 1).get(c + 1);
+                sum += arr.get(r + 2).get(c) + arr.get(r + 2).get(c + 1) + arr.get(r + 2).get(c + 2);
+
+                if (sum > largestSum) {
+                    largestSum = sum;
+                }
+            }
+        }
+
+        System.out.println(largestSum);
         bufferedReader.close();
     }
-
 }

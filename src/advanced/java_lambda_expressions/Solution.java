@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class Solution {
 
-//    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 //        MyMath ob = new MyMath();
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //        int T = Integer.parseInt(br.readLine());
@@ -35,5 +35,6 @@ public class Solution {
 //            }
 //            System.out.println(ans);
 //        }
-//    }
+    }
+
 }

@@ -11,7 +11,6 @@ public class Solution {
         int n = scan.nextInt();
         int d = scan.nextInt();
         List<Integer> arraylist = new ArrayList<>();
-        arraylist.add()
     }
 
 }
