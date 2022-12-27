@@ -9,6 +9,8 @@ public class Solution {
 
         while (scan.hasNext()) {
             String string = scan.next();
+
+
         }
     }
 
