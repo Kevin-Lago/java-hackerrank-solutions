@@ -1,8 +1,6 @@
 package data_structures.java_sort;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
@@ -20,6 +18,9 @@ public class Solution {
 
             testCases--;
         }
+
+        studentList.sort(Comparator.comparing(Student::getFname));
+        studentList.sort((s1, s2) -> Double.compare(s2.getCgpa(), s1.getCgpa()));
 
         for (Student st : studentList) {
             System.out.println(st.getFname());
