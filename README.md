@@ -50,11 +50,11 @@
 - [ ] [Java Stack](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_stack)
 - [x] [Java Hashset](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_hashset)
 - [x] [Java Generics](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_generics)
-- [ ] [Java Comparator](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_comparator)
+- [x] [Java Comparator](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_comparator)
 - [x] [Java Sort](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_sort)
 - [x] [Java Dequeue](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_dequeue)
 - [x] [Java BitSet](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_bitset)
-- [ ] [Java Priority Queue](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_priority_queue)
+- [x] [Java Priority Queue](https://github.com/Kevin-Lago/java-hackerrank-solutions/tree/main/src/java/data_structures/java_priority_queue)
 
 <h3>Object Oriented Programming</h3>
     
