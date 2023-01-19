@@ -114,10 +114,10 @@ As all events are completed, the name of each of the remaining students is print
 
 <details><summary>Solution</summary>
     
-Java Priority Queue does not return a sorted list. Rather, Priority Queue does not sort element on add. [source](https://stackoverflow.com/questions/5695017/priorityqueue-not-sorting-on-add)
-Therefore, To get the correct answer we first need to sort a List of Students.
+Java Priority Queue does not return a sorted list. [source](https://stackoverflow.com/questions/5695017/priorityqueue-not-sorting-on-add)
+Therefore, To get the correct answer we first need to sort a List of Students created from the remaining students in the queue.
 
-The poll() method is used over remove() because poll() will return null if no such element exists. [source](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html#poll())
+Use the poll() method over remove() because poll() will return null if no such element exists where remove() will throw an error. [source](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html#poll())
     
 ```java
 import java.util.ArrayList;
