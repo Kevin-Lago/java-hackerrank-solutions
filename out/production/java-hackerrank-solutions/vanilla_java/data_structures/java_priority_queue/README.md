@@ -114,7 +114,110 @@ As all events are completed, the name of each of the remaining students is print
 
 <details><summary>Solution</summary>
     
-```java
+Java Priority Queue does not return a sorted list. [source](https://stackoverflow.com/questions/5695017/priorityqueue-not-sorting-on-add)
+Therefore, To get the correct answer we first need to sort a List of Students created from the remaining students in the queue.
 
+Use the poll() method over remove() because poll() will return null if no such element exists where remove() will throw an error. [source](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html#poll())
+    
+```java
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Collections;
+import java.util.PriorityQueue;
+
+class Priorities {
+    
+    PriorityQueue<Student> priorityQueue;
+
+    public Priorities() {
+        priorityQueue = new PriorityQueue<>();
+    }
+    
+    public List<Student> getStudents(List<String> events) {
+        for (int i = 0; i < events.size(); i++) {
+            String[] strings = events.get(i).split(" ");
+
+            if (strings[0].equals("SERVED")) {
+                priorityQueue.poll();
+            } else {
+                Student student = new Student(Integer.parseInt(strings[3]), strings[1], Double.parseDouble(strings[2]));
+
+                priorityQueue.add(student);
+            }
+        }
+
+        List<Student> students = new ArrayList<>(priorityQueue);
+        Collections.sort(students);
+        return students;
+    }
+
+}
+
+class Student implements Comparable<Student> {
+
+    int id;
+    String name;
+    double cgpa;
+
+    public Student(int id, String name, double cgpa) {
+        this.id = id;
+        this.name = name;
+        this.cgpa = cgpa;
+    }
+
+    public int getID() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getCGPA() {
+        return cgpa;
+    }
+
+    @Override
+    public int compareTo(Student s) {
+        if (cgpa > s.getCGPA()) {
+            return -1;
+        } else if (cgpa < s.getCGPA()) {
+            return 1;
+        }
+
+        if (name.compareTo(s.getName()) != 0) {
+            return name.compareTo(s.getName());
+        }
+
+        return Integer.compare(id, s.getID());
+    }
+
+}
+
+public class Solution {
+    private final static Scanner scan = new Scanner(System.in);
+    private final static Priorities priorities = new Priorities();
+    
+    public static void main(String[] args) {
+        int totalEvents = Integer.parseInt(scan.nextLine());    
+        List<String> events = new ArrayList<>();
+        
+        while (totalEvents-- != 0) {
+            String event = scan.nextLine();
+            events.add(event);
+        }
+        
+        List<Student> students = priorities.getStudents(events);
+        
+        if (students.isEmpty()) {
+            System.out.println("EMPTY");
+        } else {
+            for (Student st: students) {
+                System.out.println(st.getName());
+            }
+        }
+    }
+}
 ```
 </details>
