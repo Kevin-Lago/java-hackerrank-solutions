@@ -10,10 +10,27 @@ public class Solution {
 
         while (scan.hasNext()) {
             String string = scan.next();
-            Stack<String> stack = new Stack<>();
+            Stack s = new Stack();
 
+            for (int i = 0; i < string.length(); i++) {
+                char c = string.charAt(i);
 
+                if (s.empty()) {
+                    if (c == ')' || c == '}' || c == ']') {
+                        s.push(c);
+                        break;
+                    }
+                }
 
+                if (c == '(' || c == '{' || c == '[') {
+                    s.push(c);
+                } else if (c == ')' && (char) s.peek() == '(' || c == '}' && (char) s.peek() == '{' || c == ']' && (char) s.peek() == '[') {
+                    s.pop();
+                }
+            }
+
+            System.out.println(s.empty());
+            s.clear();
         }
     }
 
